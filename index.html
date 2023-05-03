@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link href="./assets/css/reset.css" rel="stylesheet">
+    <link href="./assets/css/styles.css" rel="stylesheet">
+    <link href="./assets/css/logo/logo.css" rel="stylesheet">    
+    <link href="./assets/css/header/header.css" rel="stylesheet">
+    <link href="./assets/css/promotional/promotional.css" rel="stylesheet">
+    <link href="./assets/css/promotional/slides.css" rel="stylesheet">
+    <link href="./assets/css/products/products.css" rel="stylesheet">
+    <link href="./assets/css/products/products-container.css" rel="stylesheet">
+    <link href="./assets/css/about-contact/about-contact.css" rel="stylesheet">
+    <link href="./assets/css/input/input.css" rel="stylesheet">
+    <link href="./assets/css/footer/footer.css" rel="stylesheet">
+    <link href="./assets/css/erro/erro.css" rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/flickity/css/flickity.css">
+</head>
+<body>
+    <header class="header container">
+        <div class="header__search-logo">
+            <i class="logo fa-solid fa-gamepad fa-2x" style="color: #0035dc;" alt="Logo da Alura Geek"></i>
+            <h3 class="logo__name"><span>Alura</span> Geek</h3>
+            <div class="header__box-input">
+                <input class="header__input" type="text" placeholder="O que deseja encontrar?">
+                <a class="header__search-link" href="#">
+                    <img src="./assets/css/imgs/icons/search-icon.svg" alt="Ícone de pesquisar/lupa">
+                </a>
+            </div>
+        </div>
+        <a class="header__button button__light button" href="./login.html">Iniciar sessão</a>
+    </header>
+    <main>
+        <section class="promotional">
+            <div class="banner">
+                <div class="banner__slides main-carousel" data-flickity='{"autoPlay": true}'>
+                    <!-- slide images -->
+                    <div class="slide carousel-cell" id="current ">
+                        <div class="banner__slide banner__slide--first">
+                            <h2 class="banner__title">Promoção da Semana</h2>
+                            <p class="banner__description">Jogos aclamados pelo público com 30% de desconto</p>
+                        </div>
+                    </div>
+    
+                    <div class="slide">
+                        <div class="banner__slide banner__slide--second carousel-cell">
+                            <h2 class="banner__title">Confira as novidades em Consoles</h2>
+                            <p class="banner__description">Descubra um novo mundo de possibilidades com a nova geração de Consoles</p>
+                        </div>
+                    </div>
+    
+                    <div class="slide">
+                        <div class="banner__slide banner__slide--third carousel-cell">
+                            <h2 class="banner__title">Dê uma olhada nos acessórios do momento</h2>
+                            <p class="banner__description">Veja o novo Playstation VR2 e explore mundos além da imaginação</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+        <section class="products container">
+            <div class="products__all">
+                <div class="product__info">
+                    <h3 class="product__title">Jogos</h3>
+                    <a class="product__link-all" href="./games.html">Ver tudo<i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></a>
+                </div>
+                <div class="games__section">
+                    <div class="product__container">
+                        <img class="product__img" src="./assets/css/imgs/thumbs-sales/games/horizon-forbidden-west-game.jpg" alt="">
+                        <p class="product__name">Horizon Forbidden West</p>
+                        <p class="product__price">R$ 149,99</p>
+                        <a class="product__buy" href="#">Ver mais sobre</a>
+                    </div>
+        
+                    <div class="product__container">
+                        <img class="product__img" src="./assets/css/imgs/thumbs-sales/games/The-last-of-us-games.webp" alt="">
+                        <p class="product__name">The Last of Us - Part 1</p>
+                        <p class="product__price">R$ 249,99</p>
+                        <a class="product__buy" href="#">Ver mais sobre</a>
+                    </div>
+    
+                    <div class="product__container">
+                        <img class="product__img" src="./assets/css/imgs/thumbs-sales/games/cyberpunk-games.webp" alt="">
+                        <p class="product__name">Cyberpunk</p>
+                        <p class="product__price">R$ 149,99</p>
+                        <a class="product__buy" href="#">Ver mais sobre</a>
+                    </div>
+    
+                    <div class="product__container">
+                        <img class="product__img" src="./assets/css/imgs/thumbs-sales/games/god-of-war-ragnarok-games.webp" alt="">
+                        <p class="product__name">God of War Ragnarök</p>
+                        <p class="product__price">R$ 249,99</p>
+                        <a class="product__buy" href="#">Ver mais sobre</a>
+                    </div>
+                </div>
+    
+                <div class="product__info">
+                    <h3 class="product__title">Consoles</h3>
+                    <a class="product__link-all" href="./consoles.html">Ver tudo<i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></a>
+                </div>
+                <div class="console__section">
+                    <div class="product__container">
+                        <img class="product__img" src="./assets/css/imgs/thumbs-sales/consoles/console-nintendo-switch-oled-thumbnail.jpg" alt="">
+                        <p class="product__name">Nintendo Switch OLED</p>
+                        <p class="product__price">R$ 2.199,99</p>
+                        <a class="product__buy" href="#">Ver mais sobre</a>
+                    </div>
+        
+                    <div class="product__container">
+                        <img class="product__img" src="./assets/css/imgs/thumbs-sales/consoles/playstation5_thumbnail.jpg" alt="">
+                        <p class="product__name">Playstation 5</p>
+                        <p class="product__price">R$ 4.399,99</p>
+                        <a class="product__buy" href="#">Ver mais sobre</a>
+                    </div>
+    
+                    <div class="product__container">
+                        <img class="product__img" src="./assets/css/imgs/thumbs-sales/consoles/console-xbox-series-x-thumbnail.jpg" alt="">
+                        <p class="product__name">Xbox series X</p>
+                        <p class="product__price">R$ 4.499,99</p>
+                        <a class="product__buy" href="#">Ver mais sobre</a>
+                    </div>
+    
+                    <div class="product__container">
+                        <img class="product__img" src="./assets/css/imgs/thumbs-sales/consoles/xbox-series-s-thumbnail.jpg" alt="">
+                        <p class="product__name">Xbox series S</p>
+                        <p class="product__price">R$ 1.999,99</p>
+                        <a class="product__buy" href="#">Ver mais sobre</a>
+                    </div>
+                </div>
+    
+                <div class="product__info">
+                    <h3 class="product__title">Acessórios</h3>
+                    <a class="product__link-all" href="./acessories.html">Ver tudo<i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></a>
+                </div>
+                <div class="acessory__section">
+                    <div class="product__container">
+                        <img class="product__img" src="./assets/css/imgs/thumbs-sales/acessorios/playstation-vr2-acessorios.jpeg" alt="">
+                        <p class="product__name">Playsation VR2</p>
+                        <p class="product__price">R$ 4.499,99</p>
+                        <a class="product__buy" href="#">Ver mais sobre</a>
+                    </div>
+        
+                    <div class="product__container">
+                        <img class="product__img" src="./assets/css/imgs/thumbs-sales/acessorios/control-dual-sense-acessorio.jfif" alt="">
+                        <p class="product__name">Controle de PS5 Dual-Sense</p>
+                        <p class="product__price">R$ 499,99</p>
+                        <a class="product__buy" href="#">Ver mais sobre</a>
+                    </div>
+    
+                    <div class="product__container">
+                        <img class="product__img" src="./assets/css/imgs/thumbs-sales/acessorios/headset-pulse-3d-acessorio.jpg" alt="">
+                        <p class="product__name">Headset sem fio Pulse 3D</p>
+                        <p class="product__price">R$ 429,99</p>
+                        <a class="product__buy" href="#">Ver mais sobre</a>
+                    </div>
+    
+                    <div class="product__container">
+                        <img class="product__img" src="./assets/css/imgs/thumbs-sales/acessorios/controle-xbox-series-acessorio.jpg" alt="">
+                        <p class="product__name">Controle de Xbox series S/X</p>
+                        <p class="product__price">R$ 499,99</p>
+                        <a class="product__buy" href="#">Ver mais sobre</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="about-contact container">
+            <div class="about-contact__all">
+                <div class="logo__all">
+                    <i class="logo fa-solid fa-gamepad fa-2x" style="color: #0035dc;" alt="Logo da Alura Geek"></i>
+                    <h3 class="logo__name"><span>Alura</span> Geek</h3>
+                </div>
+                
+                <nav class="about-contact__nav">
+                    <a class="about-contact__items" href="#">Quem somos nós</a>
+                    <a class="about-contact__items" href="#">Política de privacidade</a>
+                    <a class="about-contact__items" href="#">Programa de fidelidade</a>
+                    <a class="about-contact__items" href="#">Nossas lojas</a>
+                    <a class="about-contact__items" href="#">Quero ser franqueado</a>
+                    <a class="about-contact__items" href="#">Anuncie aqui</a>
+                </nav>
+                
+                <form data-form>
+                    <fieldset>
+                        <div class="about-contact__inputs">
+                            <legend class="about-contact__title">Fale conosco</legend>
+                        
+                            <div class="about-contact__input">
+                                <input class="default__input" name="default__input" type="name" autocomplete="off" maxlength="40" data-name required>
+                                <label class="label__input label__name" for="default__input">Nome</label>
+                                <span class="input__name"></span>
+                            </div>
+    
+                            <div class="about-contact__input">
+                                <textarea class="textarea__input" name="textarea__input" id="" rows="3" autocomplete="off" maxlength="120" data-message required></textarea>
+                                <label class="label__input label__message" for="textarea__input">Escreva sua mensagem</label>
+                                <span class="input__message"></span>
+                            </div>
+
+                            <input type="submit" class="button__submit button__dark button" value="Enviar mensagem">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer container">
+        <p class="footer__text">Desenvolvido por <span>CleitonOS</span> - Copyright 2023 ©.</p>
+        <p class="footer__text">todos os direitos reservados.</p>
+    </footer>
+    
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://kit.fontawesome.com/48cd63999d.js" crossorigin="anonymous"></script>
+    <script src="./assets/scripts/validacao-contato.js"></script>
+</body>
+</html>

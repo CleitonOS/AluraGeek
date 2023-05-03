@@ -1,0 +1,30 @@
+.footer{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: var(--cor-cinza-fundo-input);
+    text-align: center;
+}
+
+.footer__text{
+    font-size: 1rem;
+    font-variant-numeric: lining-nums;
+}
+
+.footer__text span{
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.footer__text:not(:last-child){
+    padding-bottom: .4rem;
+}
+
+@media screen and (max-width: 430px) {
+    .footer__text{
+        font-size: .8rem;
+    }
+
+    .footer__text:not(:last-child){
+        padding-bottom: .2rem;
+    }
+}

@@ -1,0 +1,20 @@
+.logo__name{
+    font-size: 1.6rem;
+    font-weight: bold;
+    word-spacing: -6px;
+    color: #000;
+}
+
+.logo__name span{
+    color: var(--cor-azulescuro-fundo);
+}
+
+.logo{
+    padding: 0 .3rem;
+}
+
+.logo__link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}

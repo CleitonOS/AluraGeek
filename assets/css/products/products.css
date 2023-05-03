@@ -1,0 +1,39 @@
+.products{
+    background-color: var(--cor-azulescuro-fundo);
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+}
+
+.products__all{
+    display: flex;
+    flex-direction: column;
+}
+
+.games__section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.console__section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.acessory__section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 430px) {
+    .games__section{
+        flex-wrap: wrap;
+    }
+
+    .console__section{
+        flex-wrap: wrap;
+    }
+    
+    .acessory__section{
+        flex-wrap: wrap;
+    }
+}

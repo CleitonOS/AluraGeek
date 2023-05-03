@@ -1,0 +1,50 @@
+:root{
+    --font-raleway: 'Raleway', sans-serif;
+
+    --cor-cinza-placeholder:#A2A2A2;
+    --cor-cinza-fundo-input:#F5F5F5;
+    --cor-branca-fundo: #fff;
+    --cor-branca-texto: #fff;
+    --cor-azul-texto:#2A7AE4;
+    --cor-preto-texto: #464646;
+    --cor-azulescuro-fundo: #0035DC;
+}
+
+body{
+    font-family: var(--font-raleway);
+}
+
+.container {
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.button{
+    text-align: center;
+    width: 100%;
+    max-width: 200px;
+    box-sizing: border-box;
+
+    padding: 0.8rem 1.8rem;
+
+    text-decoration: none;
+
+    border: 1px solid var(--cor-azul-texto);
+}
+
+.button__dark:hover{
+    box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.13), 0 0 0.0625rem 0 rgba(0,0,0,.11);
+    background-image: linear-gradient(rgba(0,0,0,.15),rgba(0,0,0,.15));
+}
+
+.button__light:hover{
+    box-shadow: 0 .125rem .25rem 0 rgba(0,0,0,.1), 0 0 .0625rem 0 rgba(0,0,0,.1);
+    background-image: linear-gradient(rgba(0,0,0,.02),rgba(0,0,0,.02));
+}
+
+@media screen and (max-width: 430px){
+    .container {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}

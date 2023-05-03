@@ -1,0 +1,92 @@
+.label__input{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.label__name{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.label__message{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.default__input{
+    width: 100%;
+    box-sizing: border-box;
+
+    font-family: var(--font-raleway);
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color: var(--cor-preto-texto);
+
+    padding: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: .8rem;
+
+    border: 1px solid rgb(146, 146, 146);
+    box-shadow: 2px 2px 4px gray;
+    border-radius: 3px;
+
+    outline: none;
+}
+
+.textarea__input{
+    box-sizing: border-box;
+
+    font-family: var(--font-raleway);
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color: var(--cor-preto-texto);
+
+    width: 100%;
+    resize: none;
+
+    padding: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: .8rem;
+
+    border: 1px solid rgb(146, 146, 146);
+    box-shadow: 2px 2px 4px gray;
+    border-radius: 3px;
+
+    outline: none;
+}
+
+.about-contact__input > .default__input:focus{
+    border: 2px solid var(--cor-azulescuro-fundo);
+}
+
+.default__input:focus + .label__name{
+    color: var(--cor-azulescuro-fundo);
+}
+
+.about-contact__input > .textarea__input:focus{
+    border: 2px solid var(--cor-azulescuro-fundo);
+}
+
+.textarea__input:focus + .label__message{
+    color: var(--cor-azulescuro-fundo);
+}
+
+/* barra de rolagem */
+.textarea__input::-webkit-scrollbar{
+    width: 12px;
+}
+
+.textarea__input::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* estilização da scrollbar */
+.textarea__input::-webkit-scrollbar-thumb {
+    background-color: var(--cor-azulescuro-fundo);    /* color of the scroll thumb */
+    border-radius: 10px;       /* roundness of the scroll thumb */
+    border-right: 2px solid white;  /* creates padding around scroll thumb */
+}
