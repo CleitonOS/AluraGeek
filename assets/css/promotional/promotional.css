@@ -47,6 +47,8 @@
     color: white;
 
     padding-bottom: .2rem;
+    padding-left: 6%;
+    padding-right: 6%;
 }
 
 .banner__description{
@@ -56,6 +58,8 @@
     font-variant-numeric: lining-nums;
 
     padding-bottom: 4rem;
+    padding-left: 6%;
+    padding-right: 6%;
 }
 
 @media screen and (max-width: 768px) {
