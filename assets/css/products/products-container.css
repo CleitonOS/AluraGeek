@@ -57,7 +57,7 @@
     align-items: center;
 
     width: 22%;
-    min-height: 360px;
+    min-height: 320px;
     border-radius: 30px;
     background-color: #fff;
 
@@ -125,7 +125,7 @@
     transition: 0.4s;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1250px) {
     .product__container:last-child{
         display: none;
     }
