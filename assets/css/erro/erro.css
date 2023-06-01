@@ -1,6 +1,9 @@
 /* se encontra em ambas páginas de cadastro admin e login */
-.input-mensagem-erro{
-    display: none;
+.input-login--erro{
+    display: block;
+    color: #ff0000;
+    margin-left: 1%;
+    margin-bottom: .8rem;
 }
 
 .input-name--erro{

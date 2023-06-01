@@ -1,7 +1,6 @@
 (()=>{
     const inputNome = document.querySelector('[data-name]');
     const inputMensagem = document.querySelector('[data-message]');
-    const formulario = document.querySelector('[data-form]');
 
     const validaNome = () => {
         function erroCampoNome(inputNome) {

@@ -42,20 +42,26 @@
         <section class="login container">
             <form class="form__login" data-form>
                 <h2 class="login__title">Iniciar Sessão</h2>
+
                 <div class="input-container">
-                    <input name="email" id="default__input" class="default__input" type="email" placeholder="E-mail" required data-email>
+                    <input name="email" class="default__input" type="email" placeholder="E-mail" required data-email>
                     <label class="label__input label__email" for="email">Escreva seu email</label>
-                    <span class="input-mensagem-erro">Esse campo não pode estar vazio</span>
+                    <span class="input__login-email"></span>
                 </div>
+
                 <div class="input-container">
-                    <input name="password" id="default__input" class="default__input" type="password" placeholder="Senha" required data-password>
+                    <input name="password" class="default__input" type="password" placeholder="Senha" required data-password>
                     <label class="label__input label__password" for="password" >Escreva sua senha</label>
-                    <span class="input-mensagem-erro">Esse campo não pode estar vazio</span>
+                    <span class="input__login-password"></span>
                 </div>
                 
-                <button type="submit" class="button button__light button__login">
-                    Entrar
-                </button>
+                <div>
+                    <button type="submit" class="button button__light button__login">
+                        Entrar                        
+                    </button>
+                    <span class="input__login-submit"></span>
+                </div>
+
             </form>
         </section>
     
@@ -104,6 +110,7 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/48cd63999d.js" crossorigin="anonymous"></script>
-    <script src="./assets/scripts/validacao-contato.js" />
+    <script src="./assets/scripts/validacao-login.js" ></script> 
+    <script src="./assets/scripts/validacao-contato.js"></script>
 </body>
 </html>

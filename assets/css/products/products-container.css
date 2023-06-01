@@ -131,13 +131,13 @@
     }
 
     .product__container{
-        width: 30%;
-        margin-left: 1.6%;
-        margin-right: 1.6%;
+        width: 28%;
+        margin-left: 2.6%;
+        margin-right: 2.6%;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     .product__name{
         font-size: 1rem;
     }
