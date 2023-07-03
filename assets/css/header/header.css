@@ -41,7 +41,7 @@
 }
 
 .header__button{
-    color: #000;
+    color: var(--cor-azulescuro-fundo);
 }
 
 @media screen and (max-width: 768px) {

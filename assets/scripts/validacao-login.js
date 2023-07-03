@@ -39,7 +39,7 @@
     // VALIDA SENHA
     const validaSenha = () => {
         function erroCampoSenha(inputSenha) {
-            const erroSenha = 'O campo não foi preenchido corretamente, talvez aja espaços em branco';
+            const erroSenha = 'O campo não foi preenchido corretamente, a senha deve ter 4 ou mais caracteres, ou talvez aja espaços em branco';
             inputSenha.setCustomValidity(erroSenha);
             
             const erroSpan = document.querySelector('.input__login-password');
@@ -59,7 +59,11 @@
 
         if(inputSenhaValor === ''){
             erroCampoSenha(inputSenha);
+        
         }
+        else if (inputSenhaValor.length < 4){
+            erroCampoSenha(inputSenha);
+        } 
         else{
             removeSenhaErro(inputSenha);
         }
@@ -72,7 +76,7 @@
     // REDIRECIONAMENTO PÁGINA DE PRODUTOS
     form.addEventListener("submit", (evento) => {
         evento.preventDefault()
-        window.location.href='./admin.html';
+        window.location.href='admin.html';
         console.log(evento.target)
     })
 

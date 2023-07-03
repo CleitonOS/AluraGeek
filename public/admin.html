@@ -10,16 +10,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
 
-    <link href="./assets/css/reset.css" rel="stylesheet">
-    <link href="./assets/css/styles.css" rel="stylesheet">
-    <link href="./assets/css/logo/logo.css" rel="stylesheet">    
-    <link href="./assets/css/header/header.css" rel="stylesheet">
-    <link href="./assets/css/about-contact/about-contact.css" rel="stylesheet">
-    <link href="./assets/css/input/input.css" rel="stylesheet">
-    <link href="./assets/css/footer/footer.css" rel="stylesheet">
-    <link href="./assets/css/login/login.css" rel="stylesheet">
-    <link href="./assets/css/erro/erro.css" rel="stylesheet">
-    <link href="./assets/css/cadastro/cadastro_produtos.css" rel="stylesheet">
+    <link href="../assets/css/reset.css" rel="stylesheet">
+    <link href="../assets/css/styles.css" rel="stylesheet">
+    <link href="../assets/css/logo/logo.css" rel="stylesheet">    
+    <link href="../assets/css/header/header.css" rel="stylesheet">
+    <link href="../assets/css/about-contact/about-contact.css" rel="stylesheet">
+    <link href="../assets/css/input/input.css" rel="stylesheet">
+    <link href="../assets/css/footer/footer.css" rel="stylesheet">
+    <link href="../assets/css/login/login.css" rel="stylesheet">
+    <link href="../assets/css/erro/erro.css" rel="stylesheet">
+    <link href="../assets/css/cadastro/cadastro_produtos.css" rel="stylesheet">
 </head>
 <body>
     <header class="header container">
@@ -32,7 +32,7 @@
             <div class="header__box-input">
                 <input class="header__input" type="text" placeholder="O que deseja encontrar?">
                 <a class="header__search-link" href="#">
-                    <img src="./assets/css/imgs/icons/search-icon.svg" alt="Ícone de pesquisar/lupa">
+                    <img src="../assets/css/imgs/icons/search-icon.svg" alt="Ícone de pesquisar/lupa">
                 </a>
             </div>
         </div>
@@ -44,32 +44,37 @@
             <form class="form__login" data-form>
                 <h2 class="login__title">Adicionar novo produto</h2>
                 <div class="input-container">
-                    <input name="url" id="default__input" class="default__input" type="url" placeholder="URL" required data-url>
+                    <input name="url" class="default__input" id="url" type="url" placeholder="URL" data-url required>
                     <label class="label__input label__email" for="url">URL da imagem</label>
                     <span class="input-mensagem-erro"></span>
                 </div>
 
                 <div class="input-container">
-                    <input name="categoria" id="default__input" class="default__input" type="text" placeholder="Ex: consoles" required data-categoria>
+                    <select name="categoria" class="default__input" id="categoria" type="text" placeholder="Ex: consoles" maxlength=30 required data-categoria>
+                        <option value="Games">Games</option>
+                        <option value="Consoles">Consoles</option>
+                        <option value="Acessórios">Acessórios</option>
+                    </select>
                     <label class="label__input label__password" for="categoria" >Categoria</label>
                     <span class="input-mensagem-erro"></span>
                 </div>
 
                 <div class="input-container">
-                    <input name="produto" id="default__input" class="default__input" type="text" placeholder="Ex: Produto X" maxlength=20 required data-nome_produto>
+                    <input name="produto" class="default__input" id="produto" type="text" placeholder="Ex: Produto X" maxlength=40"
+                    required data-nome_produto>
                     <label class="label__input label__password" for="produto">Nome do produto</label>
                     <span class="input-mensagem-erro"></span>
                 </div>
 
                 <div class="input-container">
-                    <input name="preco" id="input-price" class="default__input" type="number" placeholder="Ex: R$ 60,00" autocomplete="" required data-preco>
-                    <label class="label__input label__password" for="preco" >Preço do produto</label>
+                    <input name="preco" class="default__input" id="preco" placeholder="Ex: R$ 60,00" autocomplete="off" onKeyPress="return(moeda(this,'.',',',event))" data-preco required>
+                    <label class="label__input label__password" for="preco">Preço do produto</label>
                     <span class="input-mensagem-erro"></span>
                 </div>
 
                 <div class="input-container">
-                    <textarea class="textarea__input" name="textarea__input" rows="3" maxlength="150" required data-descricao></textarea>
-                    <label class="label__input label__password" for="textarea__input">Descrição do produto</label>
+                    <textarea name="textarea__input" class="textarea__input" id="textarea-id" rows="3" maxlength="150" data-descricao></textarea>
+                    <label class="label__input label__password" for="textarea-id">Descrição do produto (opcional)</label>
                     <span class="input-mensagem-erro"></span>
                 </div>
                 
@@ -124,8 +129,10 @@
         <p class="footer__text">todos os direitos reservados.</p>
     </footer>
 
+    
+    <script type="module" src="../controller/cadastraProdutos-controller.js"></script>
+    <script src="../assets/scripts/mascaraReal.js"></script>
+    <script src="../assets/scripts/validacao-contato.js"></script>
     <script src="https://kit.fontawesome.com/48cd63999d.js" crossorigin="anonymous"></script>
-    <script src="https://github.com/codermarcos/simple-mask-money/releases/download/v3.0.0/simple-mask-money.js"></script>
-    <script src="./assets/scripts/validacao-contato.js" />
 </body>
 </html>

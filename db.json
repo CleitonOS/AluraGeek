@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "nome": "Dead space",
+      "categoria": "Games",
+      "preco": "R$ 200,00",
+      "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202209/1918/MP0I6Folca9wOgs9A39wwvj1.png",
+      "id": 13
+    },
+    {
+      "nome": "Fifa 23",
+      "categoria": "Games",
+      "preco": "R$ 250,00",
+      "imagem": "https://p2.trrsf.com/image/fget/cf/1200/1200/middle/images.terra.com/2022/09/26/k1ppf4vvih56fu2viym8xr6x-rhdd24l8ihcz.jpg",
+      "id": 14
+    },
+    {
+      "nome": "Nintendo Switch OLED",
+      "categoria": "Consoles",
+      "preco": "R$ 2.500,00",
+      "imagem": "https://cdn.awsli.com.br/600x450/670/670722/produto/183606220/d6865c015a.jpg",
+      "id": 16
+    },
+    {
+      "nome": "Mouse Gamer Logitech",
+      "categoria": "Acessórios",
+      "preco": "R$ 250,00",
+      "imagem": "https://images.tcdn.com.br/img/img_prod/15959/mouse_gamer_logitech_g203_prodigy_rgb_8000dpi_15225_1_20190322154803.jpg",
+      "id": 17
+    },
+    {
+      "nome": "Minecraft",
+      "categoria": "Games",
+      "preco": "R$ 100,00",
+      "imagem": "https://image.api.playstation.com/vulcan/img/cfn/11307uYG0CXzRuA9aryByTHYrQLFz-HVQ3VVl7aAysxK15HMpqjkAIcC_R5vdfZt52hAXQNHoYhSuoSq_46_MT_tDBcLu49I.png",
+      "id": 18
+    },
+    {
+      "nome": "Five nights at freddy's",
+      "categoria": "Games",
+      "preco": "R$ 99,99",
+      "imagem": "https://cdn.jogos360.com.br/fi/ve/five-nights-at-freddys-d.jpg",
+      "id": 19
+    }
+  ]
+}

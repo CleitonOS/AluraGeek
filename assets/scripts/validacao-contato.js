@@ -72,6 +72,6 @@
         validaMensagem(evento.target);
     })
 
-    console.log(validaNome, validaMensagem)
+    // console.log(validaNome, validaMensagem)
 })()
 

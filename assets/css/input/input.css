@@ -24,6 +24,7 @@
     font-weight: 400;
     letter-spacing: 0.05em;
     color: var(--cor-preto-texto);
+    font-variant-numeric: lining-nums;
 
     padding: 1rem;
     margin-top: 1.5rem;
