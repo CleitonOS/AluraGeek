@@ -23,16 +23,11 @@ O Alura-Geek conta com:
 </li>
   <li>
     Menu administrador para eles conseguirem adicionar, editar, buscar ou eliminar produtos da loja.
-  </li
+  </li>
   <li>
     Site responsivo para dar aos clientes a facilidade de compra através de dispositivos mobiles
   </li>
 </ol>
-
-
-
-[4] 5] 
-[6] 
 
 Além disso, foi proposto um desafio nesse projeto onde precisávamos validar os campos do formulário de contato, validando se há espaço vazio ou em branco, se estava no limite de caracteres definido, e toda lógica foi implementada no JavaScript. Além do mais, também foi feita validações pelo HTML utilizando algumas propriedades do próprio HTML e o uso do "pattern" para criar uma RegEx. 
 
