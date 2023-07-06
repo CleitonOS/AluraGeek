@@ -8,12 +8,31 @@ De forma resumida, é um e-commerce geek, com produtos relacionados ao mundo de 
 Durante o desenvolvimento desse projeto pude praticar minha lógica com JavaScript puro, 
 
 O Alura-Geek conta com:
-[1] Página inicial com botão "iniciar sessão" e um buscador de produtos oferecidos pela empresa.
-[2] Um banner com descontos, promoções, ou informações relevantes sobre os produtos.
-[3] Uma galeria com as informações dos produtos como: a imagem, o nome do produto, o preço e um link que leva até a página de descrição do produto.
-[4] Um rodapé com formulário para contato e outras informações relevantes.
-[5] Menu administrador para eles conseguirem adicionar, editar, buscar ou eliminar produtos da loja.
-[6] Site responsivo para dar aos clientes a facilidade de compra através de dispositivos mobiles
+<ol>
+  <li>
+    Página inicial com botão "iniciar sessão" e um buscador de produtos oferecidos pela empresa.
+  </li>
+  <li>
+    Um banner com descontos, promoções, ou informações relevantes sobre os produtos.
+  </li>
+  <li>
+    Uma galeria com as informações dos produtos como: a imagem, o nome do produto, o preço e um link que leva até a página de descrição do produto.
+  </li>
+  <li>
+    Um rodapé com formulário para contato e outras informações relevantes.
+</li>
+  <li>
+    Menu administrador para eles conseguirem adicionar, editar, buscar ou eliminar produtos da loja.
+  </li
+  <li>
+    Site responsivo para dar aos clientes a facilidade de compra através de dispositivos mobiles
+  </li>
+</ol>
+
+
+
+[4] 5] 
+[6] 
 
 Além disso, foi proposto um desafio nesse projeto onde precisávamos validar os campos do formulário de contato, validando se há espaço vazio ou em branco, se estava no limite de caracteres definido, e toda lógica foi implementada no JavaScript. Além do mais, também foi feita validações pelo HTML utilizando algumas propriedades do próprio HTML e o uso do "pattern" para criar uma RegEx. 
 
