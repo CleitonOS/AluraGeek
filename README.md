@@ -31,4 +31,11 @@ Durante o desenvolvimento desse projeto pude praticar minha lógica com JavaScri
 
 Além disso, foi proposto um desafio nesse projeto onde precisávamos validar os campos do formulário de contato, validando se há espaço vazio ou em branco, se estava no limite de caracteres definido, e toda lógica foi implementada no JavaScript. Além do mais, também foi feita validações pelo HTML utilizando algumas propriedades do próprio HTML e o uso do "pattern" para criar uma RegEx. 
 
+## Para iniciar o projeto
+- Utilize o browser-sync:
+browser-sync start --server --file . --host --port 5000 --startPath index.html
+
+- Utilize o json-server:
+json-server  --watch db.json
+
 ### Badge de conclusão do desafio
