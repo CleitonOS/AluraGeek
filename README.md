@@ -41,7 +41,9 @@ Se você deseja executar o Browsersync a partir da linha de comando em qualquer 
   - browser-sync start --server --file . --host --port 5000 --startPath index.html
 
 ### Instale o json-server:
-- Utilize o json-server:
+- npm install -g json-server
+
+- Para utilizar o json-server:
   - json-server  --watch db.json
 
 ### Badge de conclusão do desafio
