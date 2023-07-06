@@ -5,7 +5,7 @@ De forma resumida, é um e-commerce geek, com produtos relacionados ao mundo de 
 <img src="assets/css/imgs/screenshots/alura-geek-print2.png">
 
 ## Sobre o desenvolvimento do projeto
-Durante o desenvolvimento desse projeto pude praticar minha lógica com JavaScript puro, a criar CRUD e utilizar Fetch API para fazer as requisições ao db.json 
+Durante o desenvolvimento desse projeto pude praticar minha lógica com JavaScript puro, a criar CRUD (Rest API) e utilizar Fetch API para fazer as requisições ao db.json 
 
 ### O Alura-Geek conta com:
 <ol>
