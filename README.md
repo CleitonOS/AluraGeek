@@ -35,13 +35,13 @@ Além disso, foi proposto um desafio nesse projeto onde precisávamos validar os
 ### Instale o browser-sync:
 Instalação local -
 Se você deseja executar o Browsersync a partir da linha de comando em qualquer diretório, ele pode ser instalado localmente com o seguinte comando.
-- $ npm install browser-sync
+  - $ npm install browser-sync
 
 - Para executar o browser-sync:
   - browser-sync start --server --file . --host --port 5000 --startPath index.html
 
 ### Instale o json-server:
-- npm install -g json-server
+  - npm install -g json-server
 
 - Para utilizar o json-server:
   - json-server  --watch db.json
