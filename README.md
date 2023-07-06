@@ -54,5 +54,3 @@ Se você deseja executar o Browsersync a partir da linha de comando em qualquer 
 ```
   json-server  --watch db.json
 ```
-
-### Badge de conclusão do desafio
