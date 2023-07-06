@@ -33,9 +33,9 @@ Além disso, foi proposto um desafio nesse projeto onde precisávamos validar os
 
 ## Para iniciar o projeto
 - Utilize o browser-sync:
-* browser-sync start --server --file . --host --port 5000 --startPath index.html
+  - browser-sync start --server --file . --host --port 5000 --startPath index.html
 
 - Utilize o json-server:
-json-server  --watch db.json
+  - json-server  --watch db.json
 
 ### Badge de conclusão do desafio
