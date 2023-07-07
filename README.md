@@ -1,10 +1,10 @@
 # :video_game: Sobre o Alura Geek
 De forma resumida, é um e-commerce geek, com produtos relacionados ao mundo de games, conta com validação de formulários, criação de produtos, exclusão e edição com CRUD e requisições feitas com Fetch API. 
 
-## Apresentação do projeto
+## :sunrise: Apresentação do projeto
 <img src="assets/css/imgs/screenshots/alura-geek-print2.png">
 
-## Sobre o desenvolvimento do projeto
+## :file_folder: Sobre o desenvolvimento do projeto
 Durante o desenvolvimento desse projeto pude praticar minha lógica com JavaScript puro, a criar CRUD (Rest API) e utilizar Fetch API para fazer as requisições ao db.json 
 
 ### O Alura-Geek conta com:
