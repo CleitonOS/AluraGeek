@@ -5,7 +5,7 @@ De forma resumida, é um e-commerce geek, com produtos relacionados ao mundo de 
 <img src="assets/css/imgs/screenshots/alura-geek-print2.png">
 
 ## :file_folder: Sobre o desenvolvimento do projeto
-Durante o desenvolvimento desse projeto pude praticar minha lógica com JavaScript puro, a criar CRUD (Rest API) e utilizar Fetch API para fazer as requisições ao db.json 
+Durante o desenvolvimento desse projeto pude praticar minha lógica com JavaScript puro, a criar CRUD (Rest API) e utilizar Fetch API para fazer as requisições ao db.json (Fake REST API)
 
 ### O Alura-Geek conta com:
 <ol>
@@ -29,7 +29,7 @@ Durante o desenvolvimento desse projeto pude praticar minha lógica com JavaScri
   </li>
 </ol>
 
-Além disso, foi proposto um desafio nesse projeto onde precisávamos validar os campos do formulário de contato, validando se há espaço vazio ou em branco, se estava no limite de caracteres definido, e toda lógica foi implementada no JavaScript. Além do mais, também foi feita validações pelo HTML utilizando algumas propriedades do próprio HTML e o uso do "pattern" para criar uma RegEx. 
+Além disso, o projeto contém validação simples de formulários, uma página de login que leva a página de administração para criação de produtos. No momento estou desenvolvendo a página com a descrição de cada produto selecionado pelo cliente. 
 
 ## Para iniciar o projeto
 ### Instale o browser-sync:
