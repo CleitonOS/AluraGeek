@@ -1,4 +1,4 @@
-# Sobre o Alura Geek
+# :video_game: Sobre o Alura Geek
 De forma resumida, é um e-commerce geek, com produtos relacionados ao mundo de games, conta com validação de formulários, criação de produtos, exclusão e edição com CRUD e requisições feitas com Fetch API. 
 
 ## Apresentação do projeto
